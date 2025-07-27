@@ -1,5 +1,7 @@
 package Encapsulation;
 
+//These private variables are binded inside the getter and setter methods
+
 class EncasulationUsingGetterSetter {
 
 	private int id = 11;
@@ -28,9 +30,8 @@ public class GetterAndSetter {
 	public static void main(String[] args) {
 		
 		EncasulationUsingGetterSetter obj = new EncasulationUsingGetterSetter();
-		
-//	    obj.setId(10);
-//	    obj.setName("Dharshini");
+        //obj.setId(10);
+        //obj.setName("Dharshini");
 	    int id =obj.getId();
 	    String name =obj.getName();
 	    System.out.println("ID:"+id+" Name:"+name);
