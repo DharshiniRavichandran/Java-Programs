@@ -9,6 +9,8 @@ class A {
 public class AnonymousClass {
 
 	public static void main(String[] args) {
+		
+		//Anonymous Inner class for method overriding
 		A obj = new A() {
 			public void methodA() {
 				System.out.println("New Implementation");
