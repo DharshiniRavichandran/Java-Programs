@@ -1,4 +1,4 @@
-package Programs;
+package BasicMathPrograms;
 
 import java.util.List;
 
