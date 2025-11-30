@@ -30,12 +30,23 @@ public class PrintName {
 
 	}
 
+	public static String function4(String name, int i) {
+
+		if (i == name.length()) {
+			return "";
+		}
+		return function4(name, i + 1) + name.charAt(i);
+
+	}
+
 	public static void main(String[] args) {
 		function1(1, 3);
 		System.out.println();
 		function2(1, 3);
 		System.out.println();
 		function3(3, 1);
+		System.out.println();
+		System.out.println(function4("Dharshini", 0));
 
 	}
 }
